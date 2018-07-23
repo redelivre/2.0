@@ -1,0 +1,40 @@
+{
+    "name": "hacklab/base-worpdress-repository",
+    "description": "Basic WordPress Repository",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-gettext": "*",
+        "composer/installers": "1.5.0",
+        "vlucas/phpdotenv": "2.4.0",
+        "wp-cli/wp-cli" : "1.4.1",
+        "oscarotero/env": "^1.1.0",
+        "roots/wp-password-bcrypt": "1.0.0",
+        "wpackagist-plugin/wordfence": "6.3.22",
+        "wpackagist-plugin/all-in-one-seo-pack": "2.4.4",
+        "wpackagist-plugin/nginx-helper": "1.9.10",
+        "wpackagist-plugin/sendgrid-email-delivery-simplified": "1.11.7",
+        "frc/batcache": "1.3-a2",
+        "wpackagist-plugin/redis-cache": "1.3.5",
+        "predis/predis": "1.1.1",
+        "humanmade/s3-uploads": "2.0.0-beta3",
+        "wpackagist-plugin/debug-bar": "0.9",
+        "wpackagist-plugin/all-in-one-wp-security-and-firewall":"*",
+        "wpackagist-plugin/wordpress-seo": "*",
+        "wpackagist-plugin/google-analytics-dashboard-for-wp": "*"
+    },
+    "require-dev":{
+        "wpackagist-plugin/query-monitor":"*"
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/plugins/{$name}/": ["type:wordpress-plugin"],
+            "vendor/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    }
+}
