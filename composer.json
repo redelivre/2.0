@@ -53,7 +53,7 @@
     "koodimonni/composer-dropin-installer": "dev-master",
     "composer/installers": "^1.4",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.9.7",
+    "johnpbloch/wordpress": "^5",
     "oscarotero/env": "^1.1.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/wordpress-https": "3.3.6", "wpackagist-plugin/contact-form-7": "^4.7",
@@ -77,7 +77,8 @@
     "wpackagist-plugin/google-analytics-dashboard-for-wp": "*",
     "wpackagist-plugin/daggerhart-openid-connect-generic": "*",
     "ForaDoEixo/MapasBuilder": "dev-master",
-    "redelivre/wp-divi": "dev-divi-3.0-version"
+    "redelivre/wp-divi": "dev-divi-3.0-version",
+    "wpackagist-plugin/newsletter":"5.8.8"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
